@@ -7,13 +7,13 @@ public class PrintReverseOrder {
 		
 	
 		
-		String str = "Hai i am karthik how are you";
-		String res = "";
+		String s = "Hai i am karthik how are you";
+		String r = " ";
 		
-		String[] split = str.split("");
+	//	String[] split = str.split("");
 		
-		for (String s : split) {
-			String r = "";
+	//	for (String s : split) {
+	//		String r = "";
 			
 			for (int i = s.length()-1; i>=0; i--) {
 				
@@ -21,14 +21,13 @@ public class PrintReverseOrder {
 				
 				r=r+ch;
 			}
-			res=res+r+"";
+			 System.out.println("After Reverse : "+ r);
 			
 		}
-		System.out.println(res.trim());
 		
 		}
 
-	}
+	
 
 	
 	
